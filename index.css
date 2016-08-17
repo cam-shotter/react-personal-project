@@ -1,0 +1,32 @@
+main {
+  text-align: center;
+}
+
+body {
+  /*background-color: black;*/
+}
+
+/*body {
+  background-color: #DEA5A4;
+}*/
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 100vh solid transparent;
+  border-left: 100vw solid #DEA5A4;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 100vh solid transparent;
+  border-right:100vw solid #CFCFC4;
+  /*#AEC6CF;*/
+}
