@@ -7,7 +7,13 @@ class App extends Component {
   }
 
   render () {
-    return <h1>Welcome to {this.props.name}</h1>
+    return (
+      <main>
+        <div className="arrow-right"></div>
+        <div className="arrow-left"></div>
+        <h1 className='scratch-header'>Scratch</h1>
+      </main>
+    )
   }
 
 }

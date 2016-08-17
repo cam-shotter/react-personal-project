@@ -1,6 +1,15 @@
 import React from 'react'
 import { render } from 'react-dom'
 import App from './components/app'
+import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 
-render(<App name='scratch' />, document.querySelector('main'))
-console.log('welcome to scratch')
+import Menu from './components/menu'
+
+render((
+  <Router history={hashHistory}>
+    <Route path='/' component={App} >
+      <Route path='/menu' component={Menu} />
+
+    </Route>
+  </Router>
+), document.querySelector('main'))

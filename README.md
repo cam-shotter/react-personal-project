@@ -25,7 +25,7 @@ ___
 
 Link to the repo (very important).
 
-[I'm a link to Cam's personal project repo](https://github.com/cam-shotter/purrrrrrr-personal-project)
+[I'm a link to Cam's personal project repo](https://github.com/cam-shotter/react-personal-project)
 
 ___
 
