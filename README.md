@@ -1,4 +1,3 @@
-
 # scratch
 
 Tis a reeeeal fluffy app
@@ -9,7 +8,7 @@ Tis a reeeeal fluffy app
 
 ```
 git clone https://github.com/cam-shotter/scratch
-cd 
+cd
 npm install
 ```
 
@@ -32,3 +31,5 @@ npm test
 ```
 npm run deploy
 ```
+=======
+# react-personal-project
