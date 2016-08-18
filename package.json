@@ -5,8 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "budo . -d --serve bundle.js --live",
-    "build": "browserify . -o bundle.js -g uglifyify",
-    "watch": "watchify . -d -o bundle.js -g uglifyify",
     "test": "browserify test/index.js | node | tap-spec",
     "dist": "mkdir -p dist && bash -c 'cp *.{js,html,css} dist'",
     "push": "gh-pages -d dist",

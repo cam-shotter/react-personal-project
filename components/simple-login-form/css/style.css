@@ -63,7 +63,7 @@ body {
 }
 
 .btn {
-  width: 50vw;
+  width: 45vw;
   padding: 15px 30px;
   border: none;
   background: white;
@@ -72,6 +72,10 @@ body {
 
 .btn-right {
   float: right;
+}
+
+.btn-left {
+  float: left;
 }
 
 .icon {

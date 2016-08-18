@@ -10,6 +10,10 @@ body {
   background-color: #DEA5A4;
 }*/
 
+.llamas-with-hats {
+  margin: 50px 0;
+}
+
 .arrow-right {
   width: 0;
   height: 0;
@@ -35,8 +39,4 @@ body {
   position:relative;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-}
-
-.login-header {
-  
 }

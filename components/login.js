@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router'
 
-
+import App from './app'
 import NavLink from './NavLink'
 
 
@@ -18,11 +18,8 @@ class Login extends React.Component {
             <input type="password" name="password" placeholder="Password" required="required" className="input-txt" />
 
             <div className="login-footer">
-              <NavLink to="/error" className="lnk">
-                <span className="icon icon-min">ಠ╭╮ಠ</span>
-                I've forgotten something
-              </NavLink>
-
+              <span className="icon icon-min">ಠ╭╮ಠ</span>
+              I've forgotten something
               <NavLink to="/home" className="lnk">
                 <button type="submit" className="btn btn-right">Sign in</button>
               </NavLink>
