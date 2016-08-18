@@ -1,9 +1,10 @@
 import React from 'react'
 import { render } from 'react-dom'
-import App from './components/app'
 import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 
+import App from './components/app'
 import Menu from './components/menu'
+
 
 render((
   <Router history={hashHistory}>

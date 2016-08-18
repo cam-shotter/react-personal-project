@@ -8,14 +8,13 @@ class App extends Component {
 
   render () {
     return (
-      <main>
+      <div>
         <div className="arrow-right"></div>
         <div className="arrow-left"></div>
         <h1 className='scratch-header'>Scratch</h1>
-      </main>
+      </div>
     )
   }
-
 }
 
 export default App

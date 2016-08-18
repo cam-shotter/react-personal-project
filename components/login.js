@@ -4,7 +4,7 @@ import NavLink from './NavLink'
 import Home from './Home'
 import Images from './Images'
 
-export default React.createClass({
+class Login extends React.Component {
   render() {
     return (
       <div>
@@ -17,4 +17,6 @@ export default React.createClass({
       </div>
     )
   }
-})
+}
+
+export default Login
