@@ -30,8 +30,6 @@
   "homepage": "https://github.com/cam-shotter/scratch",
   "dependencies": {
     "cheerio": "^0.20.0",
-    "knex": "^0.11.10",
-    "postgresql": "0.0.1",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
     "react-router": "^2.6.1",
@@ -43,14 +41,12 @@
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
     "babelify": "^7.2.0",
-    "browserify": "^13.0.0",
     "budo": "^8.2.0",
     "gh-pages": "^0.11.0",
     "http-server": "^0.9.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.5.1",
     "uglifyify": "^3.0.1",
-    "watchify": "^3.7.0",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
