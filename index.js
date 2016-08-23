@@ -13,9 +13,8 @@ import HumanProfile from './components/human-profile'
 
 render((
   <Router history={hashHistory}>
-    <Route path='/' component={Login} >
-      <Route path='/error' component={ErrorMessage}/>
-    </Route>
+    <Route path='/' component={Login} />
+
     <Route path='/home' component={App} >
       <Route path='/home/:userName' component={HumanProfile} />
     </Route>
