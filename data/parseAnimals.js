@@ -19,7 +19,7 @@ parseAnimals = (URLarray) => {
             titlesArray[0] = $('.name').text()
           })
 
-          let splitTitlesArray = titlesArray.split('')
+          let splitTitlesArray = titlesArray[0].split(': ')
 
           // The general class names don't relate to the content eg: '.pull-left' is the pet's name???? Whaaaa??? (Not that mine are much better)
           console.log("Name: ", $('.pull-left').text())
