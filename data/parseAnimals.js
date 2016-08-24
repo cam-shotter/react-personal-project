@@ -12,6 +12,7 @@ parseAnimals = (URLarray) => {
           console.log(err)
         } else {
           let $ = cheerio.load(res.text)
+          console.log("this is the res.text: ", res.text);
 
           // The SPCA website has the titles of each thing eg: name, breed, adoption status under the same class name of "name". I'm creating an array to hold each "name" component, then mapping them to each "value" eg: [ 'Name: Fluffy', 'Breed: Short Hair Tabby' ]
           let titlesArray
@@ -27,7 +28,7 @@ parseAnimals = (URLarray) => {
             valuesArray = $('.value').text()
           })
 
-          // let splitValuesArray = valuesArray[0].split('')
+          let splitValuesArray = valuesArray[0].split('')
 
           // The general class names don't relate to the content eg: '.pull-left' is the pet's name???? Whaaaa??? (Not that mine are much better)
           console.log("Name: ", $('.pull-left').text())

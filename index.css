@@ -2,13 +2,47 @@ main {
   text-align: center;
 }
 
-body {
-  /*background-color: black;*/
+.open-menu {
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /*float:left;*/
 }
 
-/*body {
-  background-color: #DEA5A4;
-}*/
+.close-menu {
+  position: relative;
+  top: 30px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.menu-container {
+  /*float: left;*/
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 20vw;
+  background-color: orange;
+}
+
+.menu-item {
+  border-top: 1px solid black;
+  padding: 10% 0;
+}
+.menu-item:last-child {
+  border-bottom: 1px solid black;
+}
+
+.menu-title {
+  margin: 6%;
+}
+
+.hidden {
+  display: none;
+}
 
 .llamas-with-hats {
   margin: 50px 0;
@@ -37,6 +71,8 @@ body {
 
 .scratch-header {
   position:relative;
+  margin-top: 20px;
   text-align: center;
+  font-size: 3em;
   font-family: 'Raleway', sans-serif;
 }
