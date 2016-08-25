@@ -3,8 +3,8 @@
 
 let INITIAL_DATA = {
   loginDetails: {
-    userName: "",
-    password: "test"
+    userName: "Cam",
+    password: "test123"
   },
   profile: {
     name: "Test Name",

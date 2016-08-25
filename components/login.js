@@ -30,7 +30,7 @@ class Login extends React.Component {
 
           <form>
             <input type="text" name="user" value={this.state.loginDetails.userName} placeholder="Username" required="required" className="input-txt" onChange={this.handleChange} />
-            <input type="password" name="password" placeholder="Password" required="required" className="input-txt" />
+            <input type="password" name="password" value={this.state.loginDetails.password} placeholder="Password" required="required" className="input-txt" onChange={this.handleChange} />
 
             <div className="login-footer">
               <span className="icon icon-min">ಠ╭╮ಠ</span>
