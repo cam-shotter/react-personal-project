@@ -2,34 +2,26 @@ import React from 'react'
 import Menu from './menu'
 import AnimalProfile from './animal-profile'
 import { Link } from 'react-router'
+import INITIAL_DATA from '../data/initial-data'
 
 class App extends React.Component {
   constructor(props) {
     super(props)
 
-    this.props = {
-      name: "Cam"
-    }
-
-    // this.handleClick = this.handleClick.bind(this)
-    //
-    // this.props = this.props.bind(this)
-    //  console.log("these are the props: ", this.props);
-
-
+    this.state = INITIAL_DATA
   }
 
-  // <div className="arrow-right"></div>
-  // <div className="arrow-left"></div>
+
 
   render () {
+    console.log(this.state)
     return (
       <div>
         <h1 className='scratch-header'>Scratch</h1>
-        <h2>Hello, {this.props.name}</h2>
+        <h2>Hello, {this.state.loginDetails.userName}</h2>
         <Link to='/home' >Open Menu</Link>
         <Menu />
-        <AnimalProfile />
+        <AnimalProfile state={this.state} />
       </div>
     )
   }

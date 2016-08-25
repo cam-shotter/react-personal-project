@@ -10,16 +10,13 @@ import HumanProfile from './components/human-profile'
 
 // <Route path='/login' component='{}' />
 
-let INITIAL_DATA = {
-  name: "Cam"
-}
+
 
 render((
   <Router history={hashHistory}>
     <Route path='/login' component={Login} />
 
     <Route path='/home' component={App} />
-
       <Route path='/home/menu' component={Menu} >
     </Route>
   </Router>
