@@ -1,18 +1,14 @@
 import React from 'react'
+import NavLink from './NavLink'
 
 class MenuItem extends React.Component {
-  // constructor(props) {
-  //   super(props)
-  //
-  //   this.state = {
-  //     name: userName
-  //   }
-  // }
 
   render() {
     return (
       <li className="menu-item">
-        {this.props.item}
+        <NavLink to={'/', this.props.item} >
+          {this.props.item}
+        </NavLink>
       </li>
     )
   }

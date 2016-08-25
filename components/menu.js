@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuItem from './menu-item'
-import { Link } from 'react-router'
+import NavLink from './NavLink'
 
 import App from './app'
 
@@ -11,13 +11,13 @@ class Menu extends React.Component {
         <div className="menu-container">
           <h3 className="menu-title">Menu</h3>
           <ul>
-            <MenuItem item={"Search"}/>
-            <MenuItem item={"Not Worth Abandoning"}/>
-            <MenuItem item={"Other"}/>
+            <MenuItem item={"Search"} />
+            <MenuItem item={"Not Worth Abandoning"} />
+            <MenuItem item={"Other"} />
+            <MenuItem item={"Login"} />
           </ul>
-          <Link to='/home' className="close-menu" >Close Menu</Link>
+          <NavLink to='/home' style={{textDecoration: "none"}}>Close Menu</NavLink>
         </div>
-        
       </div>
     )
   }

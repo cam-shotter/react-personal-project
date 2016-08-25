@@ -19,7 +19,6 @@ main {
 }
 
 .menu-container {
-  /*float: left;*/
   position: fixed;
   top: 0px;
   left: 0px;
@@ -31,6 +30,7 @@ main {
 .menu-item {
   border-top: 1px solid black;
   padding: 10% 0;
+  text-decoration: none;
 }
 .menu-item:last-child {
   border-bottom: 1px solid black;
@@ -75,4 +75,8 @@ main {
   text-align: center;
   font-size: 3em;
   font-family: 'Raleway', sans-serif;
+}
+
+.link-style {
+  text-decoration: none;
 }

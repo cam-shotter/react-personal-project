@@ -21,14 +21,14 @@ class Login extends React.Component {
               <span className="icon icon-min">ಠ╭╮ಠ</span>
               I've forgotten something
               <NavLink to="/home" className="lnk">
-                <button type="submit" className="btn btn-right">Sign in</button>
+                <button type="submit" className="btn float-right">Sign in</button>
               </NavLink>
             </div>
 
           </form>
 
         </div>
-        
+
       </div>
     )
   }
